@@ -55,8 +55,8 @@ build CMakeFiles/project1.dir/main.cpp.obj: CXX_COMPILER__project1_unscanned_Deb
   OBJECT_DIR = CMakeFiles\project1.dir
   OBJECT_FILE_DIR = CMakeFiles\project1.dir
 
-build CMakeFiles/project1.dir/generic_rubiks_cube.cpp.obj: CXX_COMPILER__project1_unscanned_Debug C$:/Users/Keerthan$ Kumar/CLionProjects/project1/generic_rubiks_cube.cpp || cmake_object_order_depends_target_project1
-  DEP_FILE = CMakeFiles\project1.dir\generic_rubiks_cube.cpp.obj.d
+build CMakeFiles/project1.dir/RubiksCube.cpp.obj: CXX_COMPILER__project1_unscanned_Debug C$:/Users/Keerthan$ Kumar/CLionProjects/project1/RubiksCube.cpp || cmake_object_order_depends_target_project1
+  DEP_FILE = CMakeFiles\project1.dir\RubiksCube.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\project1.dir
   OBJECT_FILE_DIR = CMakeFiles\project1.dir
@@ -69,7 +69,7 @@ build CMakeFiles/project1.dir/generic_rubiks_cube.cpp.obj: CXX_COMPILER__project
 #############################################
 # Link the executable project1.exe
 
-build project1.exe: CXX_EXECUTABLE_LINKER__project1_Debug CMakeFiles/project1.dir/main.cpp.obj CMakeFiles/project1.dir/generic_rubiks_cube.cpp.obj
+build project1.exe: CXX_EXECUTABLE_LINKER__project1_Debug CMakeFiles/project1.dir/main.cpp.obj CMakeFiles/project1.dir/RubiksCube.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\project1.dir

@@ -4,5 +4,6 @@ project(project1)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(project1 main.cpp
-        generic_rubiks_cube.cpp
-        generic_rubiks_cube.h)
+        RubiksCube.cpp
+        RubiksCube.h
+)
