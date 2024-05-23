@@ -55,11 +55,59 @@ build CMakeFiles/project1.dir/main.cpp.obj: CXX_COMPILER__project1_unscanned_Deb
   OBJECT_DIR = CMakeFiles\project1.dir
   OBJECT_FILE_DIR = CMakeFiles\project1.dir
 
-build CMakeFiles/project1.dir/RubiksCube.cpp.obj: CXX_COMPILER__project1_unscanned_Debug C$:/Users/Keerthan$ Kumar/CLionProjects/project1/RubiksCube.cpp || cmake_object_order_depends_target_project1
-  DEP_FILE = CMakeFiles\project1.dir\RubiksCube.cpp.obj.d
+build CMakeFiles/project1.dir/model/RubiksCube.cpp.obj: CXX_COMPILER__project1_unscanned_Debug C$:/Users/Keerthan$ Kumar/CLionProjects/project1/model/RubiksCube.cpp || cmake_object_order_depends_target_project1
+  DEP_FILE = CMakeFiles\project1.dir\model\RubiksCube.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\project1.dir
-  OBJECT_FILE_DIR = CMakeFiles\project1.dir
+  OBJECT_FILE_DIR = CMakeFiles\project1.dir\model
+
+build CMakeFiles/project1.dir/model/RubiksCube1dArray.cpp.obj: CXX_COMPILER__project1_unscanned_Debug C$:/Users/Keerthan$ Kumar/CLionProjects/project1/model/RubiksCube1dArray.cpp || cmake_object_order_depends_target_project1
+  DEP_FILE = CMakeFiles\project1.dir\model\RubiksCube1dArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\project1.dir
+  OBJECT_FILE_DIR = CMakeFiles\project1.dir\model
+
+build CMakeFiles/project1.dir/model/RubiksCube3dArray.cpp.obj: CXX_COMPILER__project1_unscanned_Debug C$:/Users/Keerthan$ Kumar/CLionProjects/project1/model/RubiksCube3dArray.cpp || cmake_object_order_depends_target_project1
+  DEP_FILE = CMakeFiles\project1.dir\model\RubiksCube3dArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\project1.dir
+  OBJECT_FILE_DIR = CMakeFiles\project1.dir\model
+
+build CMakeFiles/project1.dir/model/RubiksCubeBitboard.cpp.obj: CXX_COMPILER__project1_unscanned_Debug C$:/Users/Keerthan$ Kumar/CLionProjects/project1/model/RubiksCubeBitboard.cpp || cmake_object_order_depends_target_project1
+  DEP_FILE = CMakeFiles\project1.dir\model\RubiksCubeBitboard.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\project1.dir
+  OBJECT_FILE_DIR = CMakeFiles\project1.dir\model
+
+build CMakeFiles/project1.dir/PatternDataBases/CornerDBMaker.cpp.obj: CXX_COMPILER__project1_unscanned_Debug C$:/Users/Keerthan$ Kumar/CLionProjects/project1/PatternDataBases/CornerDBMaker.cpp || cmake_object_order_depends_target_project1
+  DEP_FILE = CMakeFiles\project1.dir\PatternDataBases\CornerDBMaker.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\project1.dir
+  OBJECT_FILE_DIR = CMakeFiles\project1.dir\PatternDataBases
+
+build CMakeFiles/project1.dir/PatternDataBases/CornerPatternDatabase.cpp.obj: CXX_COMPILER__project1_unscanned_Debug C$:/Users/Keerthan$ Kumar/CLionProjects/project1/PatternDataBases/CornerPatternDatabase.cpp || cmake_object_order_depends_target_project1
+  DEP_FILE = CMakeFiles\project1.dir\PatternDataBases\CornerPatternDatabase.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\project1.dir
+  OBJECT_FILE_DIR = CMakeFiles\project1.dir\PatternDataBases
+
+build CMakeFiles/project1.dir/PatternDataBases/math.cpp.obj: CXX_COMPILER__project1_unscanned_Debug C$:/Users/Keerthan$ Kumar/CLionProjects/project1/PatternDataBases/math.cpp || cmake_object_order_depends_target_project1
+  DEP_FILE = CMakeFiles\project1.dir\PatternDataBases\math.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\project1.dir
+  OBJECT_FILE_DIR = CMakeFiles\project1.dir\PatternDataBases
+
+build CMakeFiles/project1.dir/PatternDataBases/NibbleArray.cpp.obj: CXX_COMPILER__project1_unscanned_Debug C$:/Users/Keerthan$ Kumar/CLionProjects/project1/PatternDataBases/NibbleArray.cpp || cmake_object_order_depends_target_project1
+  DEP_FILE = CMakeFiles\project1.dir\PatternDataBases\NibbleArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\project1.dir
+  OBJECT_FILE_DIR = CMakeFiles\project1.dir\PatternDataBases
+
+build CMakeFiles/project1.dir/PatternDataBases/PatternDatabase.cpp.obj: CXX_COMPILER__project1_unscanned_Debug C$:/Users/Keerthan$ Kumar/CLionProjects/project1/PatternDataBases/PatternDatabase.cpp || cmake_object_order_depends_target_project1
+  DEP_FILE = CMakeFiles\project1.dir\PatternDataBases\PatternDatabase.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\project1.dir
+  OBJECT_FILE_DIR = CMakeFiles\project1.dir\PatternDataBases
 
 
 # =============================================================================
@@ -69,7 +117,7 @@ build CMakeFiles/project1.dir/RubiksCube.cpp.obj: CXX_COMPILER__project1_unscann
 #############################################
 # Link the executable project1.exe
 
-build project1.exe: CXX_EXECUTABLE_LINKER__project1_Debug CMakeFiles/project1.dir/main.cpp.obj CMakeFiles/project1.dir/RubiksCube.cpp.obj
+build project1.exe: CXX_EXECUTABLE_LINKER__project1_Debug CMakeFiles/project1.dir/main.cpp.obj CMakeFiles/project1.dir/model/RubiksCube.cpp.obj CMakeFiles/project1.dir/model/RubiksCube1dArray.cpp.obj CMakeFiles/project1.dir/model/RubiksCube3dArray.cpp.obj CMakeFiles/project1.dir/model/RubiksCubeBitboard.cpp.obj CMakeFiles/project1.dir/PatternDataBases/CornerDBMaker.cpp.obj CMakeFiles/project1.dir/PatternDataBases/CornerPatternDatabase.cpp.obj CMakeFiles/project1.dir/PatternDataBases/math.cpp.obj CMakeFiles/project1.dir/PatternDataBases/NibbleArray.cpp.obj CMakeFiles/project1.dir/PatternDataBases/PatternDatabase.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\project1.dir
